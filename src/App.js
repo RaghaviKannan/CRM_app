@@ -29,8 +29,6 @@ function App() {
           <Route path='create/service-request' element={<Createservicereq/>}></Route>
           <Route path='create/lead' element={<Createlead/>}></Route>
           <Route path='create/contact' element={<Createcontact/>}></Route>
-          <Route path='update/service-request/:servicerequestid' element={<Updateservicereq/>}></Route>
-          <Route path='update/lead/:leadid' element={<Updatelead/>}></Route>
         </Route>
         <Route path='/user/forgotpassword' element={<Forgotpassword/>}></Route>
         <Route path='/user/reset-password-page' element={<Resetpassword/>}></Route>
