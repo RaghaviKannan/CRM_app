@@ -35,7 +35,6 @@ function Servicerequests() {
             <th scope="col">Priority</th>
             <th scope="col">Status</th>
             <th scope="col">Date of request</th>
-            <th scope="col">Action</th>
           </tr>
         </thead>
         <tbody>
@@ -48,7 +47,6 @@ function Servicerequests() {
                 <td>{sreq.priority}</td>
                 <td>{sreq.status}</td>
                 <td>{sreq.dor}</td>
-                <td><button className='btn btn-warning'>Edit status</button></td>
               </tr>
             })
           }
