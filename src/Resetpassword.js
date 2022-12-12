@@ -8,6 +8,7 @@ function Resetpassword() {
     const navigate = useNavigate()
     const url = new URL(window.location.href)
     const id = url.searchParams.get("id")
+    console.log(id)
     const formik = useFormik({
         initialValues: {
             password: "",
